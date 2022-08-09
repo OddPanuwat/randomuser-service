@@ -1,6 +1,5 @@
 package com.odd.demo.app.ports.output
 
-import com.odd.demo.domaim.model.Name
 import com.odd.demo.domaim.model.Response
 import reactor.core.publisher.Mono
 

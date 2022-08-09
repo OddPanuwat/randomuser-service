@@ -9,20 +9,38 @@ import java.io.Serializable
 data class User(
     var gender: String?,
     var name: Name?,
-    var address: Address?,
+    var location: Location?,
     var email: String?,
     var dob: Dob?,
 ) : Serializable
 
 @Data
-data class Address(
-    var street: String?,
+data class Location(
+    var street: Street,
     var city: String?,
     var state: String?,
     var country: String?,
     var postcode: String?,
-    var coordinates: String?,
-    var timezone: String?,
+    var coordinates: Coordinates?,
+    var timezone: Timezone?,
+) : Serializable
+
+@Data
+data class Street(
+    var number: Int?,
+    var name: String?,
+) : Serializable
+
+@Data
+data class Coordinates(
+    var latitude: String?,
+    var longitude: String?,
+) : Serializable
+
+@Data
+data class Timezone(
+    var offset: String?,
+    var description: String?,
 ) : Serializable
 
 @Data
