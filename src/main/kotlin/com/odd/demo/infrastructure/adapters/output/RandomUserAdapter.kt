@@ -1,4 +1,4 @@
-package com.odd.demo.infrastructure.adapters.persistence
+package com.odd.demo.infrastructure.adapters.output
 
 import com.google.gson.Gson
 import com.odd.demo.app.ports.output.RandomUserOutputPort

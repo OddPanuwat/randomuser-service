@@ -1,4 +1,4 @@
-package com.odd.demo.adapter.api
+package com.odd.demo.infrastructure.adapters.input
 
 import com.odd.demo.domaim.model.Response
 import com.odd.demo.domaim.service.UserServiceImpl
